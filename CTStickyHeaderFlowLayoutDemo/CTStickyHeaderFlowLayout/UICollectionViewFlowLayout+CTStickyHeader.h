@@ -26,7 +26,8 @@
 @property (nonatomic, assign) NSInteger ct_stickSingleSection;
 
 /**
- 注：如果执行删除传入刷新时候需要手动执行 [self.collectionView.collectionViewLayout invalidateLayout];
+ 注：如果遇到 ：删除、插入、contentOffset、content时候需要手动执行
+ [self.collectionView.collectionViewLayout invalidateLayout];
  */
 
 @end
